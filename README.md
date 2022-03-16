@@ -1,1 +1,1 @@
-# omnifood-proect
+# omnifood-project
