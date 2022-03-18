@@ -15,6 +15,10 @@ default: 1
 small: 1.05
 paragraph default: 1.6
 
+- Letter spacing
+-0.5px
+0.75px
+
 --- 02 COLORS:
 - Primary:
 #e67e22
@@ -79,15 +83,34 @@ html {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.5px;
   color: #333;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
   margin-bottom: 3.2rem;
 }
 
+.heading-secondary {
+  font-size: 4.4rem;
+  margin-bottom: 9.6rem;
+}
+.heading-tertiary {
+}
+.subheading {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #cf711f;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
+}
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
@@ -247,5 +270,16 @@ html {
 **********************************/
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
+}
+
+.step-number {
+}
+
+.step-img {
+  width: 50%;
+}
+
+.step-description {
+  font-size: 2rem;
+  line-height: 1.7;
 }
