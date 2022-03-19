@@ -170,7 +170,7 @@ circle: 50%
 }
 
 /*********************************
-** SECTION FEATURED IN          **
+** FEATURED IN SECTION          **
 **********************************/
 .sections-feature {
   padding: 4.8rem 0 3.2rem 0;
@@ -196,7 +196,7 @@ circle: 50%
   opacity: 50%;
 }
 /*********************************
-** SECTION HOW IT WORKS        **
+** HOW IT WORKS SECTION        **
 **********************************/
 .section-how {
   padding: 9.6rem 0;
@@ -233,14 +233,14 @@ circle: 50%
   /* 60% of parents width */
   padding-bottom: 60%;
   background-color: #fae5d3;
-  opacity: 0.8;
+  opacity: 0.5;
   z-index: -2;
 }
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
   background-color: #f8d8bd;
-  opacity: 0.5;
+  opacity: 0.3;
   z-index: -1;
 }
 
@@ -251,4 +251,32 @@ circle: 50%
 .step-description {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/*********************************
+** MEALS & LIST   SECTION       **
+**********************************/
+.section-meals {
+  padding: 9.6rem 0;
+}
+.meal-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #333;
+
+  margin-bottom: 2.6em;
+}
+
+.meal-attributes-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.meal-attribute {
+  font-size: 1.8rem;
+}
+.meal-img {
+  width: 100%;
 }
