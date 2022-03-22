@@ -76,6 +76,11 @@ html {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 }
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -194,6 +199,9 @@ strong {
 }
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+}
+.margin-bottom-bg {
+  margin-bottom: 9.6rem !important;
 }
 .center-text {
   text-align: center;
