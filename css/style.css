@@ -572,3 +572,11 @@ circle: 50%
 .cta-form input::placeholder {
   color: #aaa;
 }
+
+/***********************/
+/* FOOTER SECTION      */
+/***********************/
+
+.footer {
+  margin: 9.6rem 0;
+}
