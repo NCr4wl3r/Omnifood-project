@@ -75,7 +75,7 @@ circle: 50%
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 4.8rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
