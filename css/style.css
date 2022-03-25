@@ -63,6 +63,9 @@ circle: 50%
   /* height fixed value,  needed for the nav to be sticky(later) */
   height: 9.6rem;
   padding: 0 4.8rem;
+
+  /* For the mobile nav bar */
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -102,6 +105,27 @@ circle: 50%
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
   color: #fff;
+}
+
+/*MOBILE NAV ICONS*/
+.btn-mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+}
+.mobile-nav-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+
+  display: none;
+}
+/* Icon names:
+   name="menu-outline"
+   name="close-outline"
+*/
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
 }
 
 /***********************/
@@ -352,8 +376,6 @@ circle: 50%
   column-gap: 8rem;
 }
 
-.testimonial {
-}
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;

@@ -59,18 +59,24 @@ default: 9px
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
-body {
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  line-height: 1;
-  color: #555;
-}
-
 html {
   /* the ideal is to hardcode font-size of 10px for the rem units for proportion calculations,
     but this can affect browser's user settings. So let's take the 62.5% of the browser setting. (if 16px --> 10px)
      */
   font-size: 62.5%;
+
+  /* All elements overflow from the side -> hidden */
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  /* All elements overflow from the side -> hidden
+  only works if  it's not positiones absolutely to body */
+  overflow-x: hidden;
 }
 
 /***********************/
