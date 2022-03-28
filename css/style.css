@@ -112,6 +112,7 @@ circle: 50%
   border: none;
   background-color: none;
   cursor: pointer;
+  z-index: 9999;
 }
 .mobile-nav-icon {
   height: 4.8rem;

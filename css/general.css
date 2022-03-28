@@ -67,6 +67,9 @@ html {
 
   /* All elements overflow from the side -> hidden */
   overflow-x: hidden;
+
+  /* Smooth movement, but usually only work on chrome/firefox*/
+  /* scroll-behavior: smooth; */
 }
 
 body {
