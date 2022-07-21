@@ -1,6 +1,6 @@
 # omnifood-project
 
-## From the couse on Udemy:
+## From the course on Udemy:
 Build Responsive Real-World Websites with HTML and CSS
 
 ## Instructor:
